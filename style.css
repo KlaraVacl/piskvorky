@@ -34,10 +34,14 @@ h1 {
 .picture {
   display: block;
   height: 400px;
-  width: 100%;
   border-radius: 15px 15px 0px 0px;
   margin-top: 75px;
-  margin-bottom: -25px;
+  margin-bottom: -35px;
+}
+
+img {
+  width: 100%;
+  display: block;
 }
 
 .section {
