@@ -5,7 +5,7 @@
 body {
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
   color: #ffffff;
-  min-height: 100vh;
+  min-height: 200vh;
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
   display: flex;
   flex-direction: column;
   margin: auto;
-  width: 500px;
+  width: 500vh;
 }
 
 .box {
@@ -37,6 +37,7 @@ h1 {
   border-radius: 15px 15px 0px 0px;
   margin-top: 75px;
   margin-bottom: -35px;
+  overflow: hidden;
 }
 
 img {
@@ -91,4 +92,83 @@ p {
 
 .zacithrat:hover {
   background-color: #0090e9;
+}
+
+.rules {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: #283e50;
+  padding: 0px 15px 15px 0px;
+  flex-basis: 400px;
+  height: 130vh;
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+}
+
+.vzor_hry1 {
+  display: flex;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
+  direction: row;
+  align-items: center;
+  text-align:center;
+}
+
+.vzor_hry2 {
+  display: flex;
+  direction: row;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
+  text-align:center; 
+}
+.vzor_hry3 {
+  display: flex;
+  direction: row;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive; 
+  text-align:center;
+}
+
+.vzor_hry4 {
+  display: flex;
+  direction: row;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
+  text-align:center; 
+}
+
+.vzor_hry5 {
+  display: flex;
+  direction: row;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive; 
+  text-align:center; 
+}
+.vzor_hry6 {
+  display: flex;
+  direction: row;
+  align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive; 
+  text-align:center; 
+}
+
+.Nadpis {
+  font-family: 'Lobster', cursive;
+  font-size: 55px;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 15px;
+}
+
+.kolecka {
+  width: 1em; 
+  height: 1em;
+  filter: invert(100%)
+}
+
+.krizky {
+  width: 1em; 
+  height: 1em;
+  filter: invert(100%)
 }
