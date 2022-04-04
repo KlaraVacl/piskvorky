@@ -152,8 +152,8 @@ p {
   height: 250px;
   width: 250px;
   overflow: wrap;
-
 }
+
 .vzor_hry3 {
   display: flex;
   direction: row;
@@ -193,6 +193,12 @@ p {
   width: 250px;
 }
 
+.vzory_hry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .kolecka {
   width: 1em; 
   height: 1em;
@@ -204,3 +210,26 @@ p {
   height: 1em;
   filter: invert(100%)
 }
+
+.second_page {
+  width: 100%;
+}
+
+@media ( min-width: 576px) {
+.second_page {
+  width: 50%;
+}
+}
+
+@media ( min-width: 960px) {
+  .second_page {
+    width: 50%;
+  }
+  }
+
+  @media ( min-width: 1440px) {
+    .second_page {
+      width: 50%;
+    }
+    }
+    
