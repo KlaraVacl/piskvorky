@@ -107,20 +107,52 @@ p {
   overflow: hidden;
 }
 
+.second_page {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background-color: #283e50;
+  padding: 0px 15px 15px 0px;
+  flex-basis: 400px;
+  height: 425vh;
+  border-radius: 15px 15px 0px 0px;
+  overflow: hidden;
+  margin: auto;
+}
+
+
+.Nadpis {
+  font-family: 'Lobster', cursive;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 2px;
+}
+
+
 .vzor_hry1 {
   display: flex;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
   direction: row;
   align-items: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
   text-align:center;
+  height: 250px;
+  width: 250px;
+  overflow: wrap;
 }
+
 
 .vzor_hry2 {
   display: flex;
   direction: row;
   align-items: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
-  text-align:center; 
+  text-align:center;
+  height: 250px;
+  width: 250px;
+  overflow: wrap;
+
 }
 .vzor_hry3 {
   display: flex;
@@ -128,6 +160,8 @@ p {
   align-items: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive; 
   text-align:center;
+  height: 250px;
+  width: 250px;
 }
 
 .vzor_hry4 {
@@ -136,6 +170,8 @@ p {
   align-items: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
   text-align:center; 
+  height: 250px;
+  width: 250px;
 }
 
 .vzor_hry5 {
@@ -143,7 +179,9 @@ p {
   direction: row;
   align-items: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive; 
-  text-align:center; 
+  text-align:center;
+  height: 250px;
+  width: 250px;
 }
 .vzor_hry6 {
   display: flex;
@@ -151,14 +189,8 @@ p {
   align-items: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive; 
   text-align:center; 
-}
-
-.Nadpis {
-  font-family: 'Lobster', cursive;
-  font-size: 55px;
-  text-align: center;
-  margin-top: 55px;
-  margin-bottom: 15px;
+  height: 250px;
+  width: 250px;
 }
 
 .kolecka {
