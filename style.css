@@ -103,7 +103,7 @@ p {
   padding: 0px 15px 15px 0px;
 
   flex-basis: 400px;
-  height: 130vh;
+  height: 100vh;
   border-radius: 15px 15px 0px 0px;
   overflow: hidden;
 }
@@ -116,12 +116,11 @@ p {
   background-color: #283e50;
   padding: 0px 15px 15px 0px;
   flex-basis: 400px;
-  height: 425vh;
+  height: 400vh;
   border-radius: 15px 15px 0px 0px;
   overflow: hidden;
   margin: auto;
 }
-
 
 .Nadpis {
   font-family: 'Lobster', cursive;
@@ -136,12 +135,15 @@ p {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: flex-start;
-  width: 45%;
-  margin-left: 0px; 
-  margin-right: 0px;
- }
+  width: 100%;
+}
 
-.vzor_hry1 {
+figure {
+  margin: 5px 25px;
+  width: 40%;
+}
+
+/*.vzor_hry1 {
   display: flex;
   direction: row;
   align-items: center;
@@ -217,40 +219,38 @@ p {
   width: 250px;
   margin-left: 0; 
   margin-right: 0;
-}
-
+} */
 
 .kolecka {
-  width: 1em; 
+  width: 1em;
   height: 1em;
-  filter: invert(100%)
+  filter: invert(100%);
 }
 
 .krizky {
-  width: 1em; 
+  width: 1em;
   height: 1em;
-  filter: invert(100%)
+  filter: invert(100%);
 }
 
 .second_page {
   width: 100%;
 }
 
-@media ( min-width: 576px) {
-.second_page {
-  width: 50%;
-}
-}
-
-@media ( min-width: 960px) {
+@media (min-width: 576px) {
   .second_page {
     width: 50%;
   }
-  }
+}
 
-  @media ( min-width: 1440px) {
-    .second_page {
-      width: 50%;
-    }
-    }
-    
+@media (min-width: 960px) {
+  .second_page {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .second_page {
+    width: 50%;
+  }
+}
