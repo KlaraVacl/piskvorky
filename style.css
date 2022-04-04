@@ -101,6 +101,7 @@ p {
   width: 600px;
   background-color: #283e50;
   padding: 0px 15px 15px 0px;
+
   flex-basis: 400px;
   height: 130vh;
   border-radius: 15px 15px 0px 0px;
@@ -130,6 +131,15 @@ p {
   margin-bottom: 2px;
 }
 
+.vzory_hry {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 45%;
+  margin-left: 0px; 
+  margin-right: 0px;
+ }
 
 .vzor_hry1 {
   display: flex;
@@ -137,9 +147,14 @@ p {
   align-items: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
   text-align:center;
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   overflow: wrap;
+  width: 50%;
+  margin-left: 0px; 
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 
@@ -149,9 +164,12 @@ p {
   align-items: center;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
   text-align:center;
-  height: 250px;
-  width: 250px;
+  height: 150px;
+  width: 150px;
   overflow: wrap;
+  width: 50%;
+  margin-left: 0; 
+  margin-right: 0;
 }
 
 .vzor_hry3 {
@@ -162,6 +180,8 @@ p {
   text-align:center;
   height: 250px;
   width: 250px;
+  margin-left: 0; 
+  margin-right: 0;
 }
 
 .vzor_hry4 {
@@ -172,6 +192,8 @@ p {
   text-align:center; 
   height: 250px;
   width: 250px;
+  margin-left: 0; 
+  margin-right: 0;
 }
 
 .vzor_hry5 {
@@ -182,6 +204,8 @@ p {
   text-align:center;
   height: 250px;
   width: 250px;
+  margin-left: 0; 
+  margin-right: 0;
 }
 .vzor_hry6 {
   display: flex;
@@ -191,13 +215,10 @@ p {
   text-align:center; 
   height: 250px;
   width: 250px;
+  margin-left: 0; 
+  margin-right: 0;
 }
 
-.vzory_hry {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
 
 .kolecka {
   width: 1em; 
