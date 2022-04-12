@@ -71,6 +71,8 @@ p {
   color: #ffffff;
   justify-items: center;
   text-decoration: none;
+  width: 100%;
+  height: 20%;
 }
 
 .pravidla:hover {
@@ -88,6 +90,8 @@ p {
   color: #ffffff;
   justify-items: center;
   text-decoration: none;
+  width: 100%;
+  height: 20%;
 }
 
 .zacithrat:hover {
@@ -100,14 +104,15 @@ p {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 550px;
   background-color: #283e50;
-  padding: 0px 15px 15px 0px;
   flex-basis: 400px;
-  height: 292vh;
+  height: 60%;
   border-radius: 15px 15px 0px 0px;
   overflow: hidden;
   margin: auto;
+  text-align: left;
+  padding: 0%;
 }
 
 .Nadpis {
@@ -124,6 +129,7 @@ p {
   flex-wrap: wrap;
   align-items: flex-start;
   width: 100%;
+  justify-content: center;
 }
 
 figure {
@@ -132,18 +138,21 @@ figure {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; cursive;
   font-style: italic;
   text-align:center;
+  justify-content: center;
 }
 
 .kolecka {
   width: 1em;
   height: 1em;
   filter: invert(100%);
+  display: inline-block;
 }
 
 .krizky {
   width: 1em;
   height: 1em;
   filter: invert(100%);
+  display: inline-block;
 }
 
 .second_page {
@@ -173,3 +182,9 @@ figure {
     width: 50%;
   }
 }
+
+
+/*U 2 DODĚLAT JEŠTĚ RESPONZIVITU*/
+
+/*3.strana*/
+
