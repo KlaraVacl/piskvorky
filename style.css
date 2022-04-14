@@ -184,7 +184,91 @@ figure {
 }
 
 
-/*U 2 DODĚLAT JEŠTĚ RESPONZIVITU*/
-
 /*3.strana*/
+
+.whole_space {
+  margin: auto;
+    }
+
+.game_space {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.Titulek {
+  flex-wrap: wrap;
+  font-family: 'Lobster', cursive;
+  font-size: 95px;
+  text-align: center;
+  margin-top: 125px;
+  margin-bottom: 2px;
+  padding: 40px;
+}
+
+.player {
+  display:flex; 
+  width: 15%;
+  height: 8%;
+  border-radius: 15px;
+  overflow: hidden;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  }
+
+  .top_space {
+    display: flex;
+    justify-content: space-between;
+    }
+
+  .main_buttons {
+    display: inline-block;
+    align-items: stretch;
+        } 
+
+.green_button {
+  background-color: #1fcca4;
+  padding:15px;
+  border-radius: 15px;
+}
+
+.green_button:hover {
+    background-color: #1cbb96;
+  }
+
+  .blue_button {
+    background-color: #0197f6;
+    padding:15px;
+    border-radius: 15px;
+  }
+
+.blue_button:hover {
+  background-color: #0090e9;
+}
+
+.game_net{
+  display: flex;
+  justify-content: center;
+  height: 30%;
+  flex-wrap: wrap;
+  margin-top: auto;
+  border: 1px solid black;
+  padding: 0px;
+  margin: 150px;
+    }
+
+  button:hover, button:focus {
+    background-color:#ddc4e1d4;
+  }
+
+  button { 
+    aspect-ratio: 1 / 1;
+    background-color: #ddc4e1;
+    width: 10%;
+   border: 1px solid black;
+    }
+
+  
+  
+
 
