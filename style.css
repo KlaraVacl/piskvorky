@@ -217,9 +217,10 @@ justify-content: space-between;
   margin-bottom: 20px;
   }
 
-  .img {
+  .player img {
     display: inline-block;
     color: #ffffff; 
+    filter: invert(100%);
   }
 
   .top_space {
@@ -292,10 +293,13 @@ justify-content: space-between;
       background-size: 34px;
       transition: background-size 0.2s;
     }
+
     .board__field--cross {
       background-image: url('cross.svg');
       background-size: 34px;
       transition: background-size 0.2s;
     }
 
+
+ 
 
